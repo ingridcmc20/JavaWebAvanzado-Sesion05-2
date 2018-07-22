@@ -24,7 +24,7 @@
 <body>
 
 	<h2>Registro de Usuario</h2>
-	<form:form method="POST" servletRelativeAction="/registroValidacion/crear"    modelAttribute="usuario">
+	<form:form method="POST" servletRelativeAction="registroValidacion/crear"    modelAttribute="usuario">
 	<form:errors path = "*" cssClass = "errorblock" element = "div" />
 		<table>
 			<tr>
